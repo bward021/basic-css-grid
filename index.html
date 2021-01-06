@@ -61,8 +61,38 @@
         grid-gap: 30px;
       }
 
+      .dont_image_box {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
       .dont_image_box img {
         width: 50%;
+      }
+      
+      .dont_image_box div {
+        color: #808080;
+        font-size: small;
+      }
+
+      .dos_donts_heading {
+        font-weight: 900;
+        margin-bottom: 20px;
+        margin-left: 40px;
+      }
+
+      .blue_text {
+        color: #0079ff;
+      }
+
+      .red_text {
+        color: #dc0004;
+      }
+
+      .dos_donts_list li {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
       }
 
     </style>
@@ -113,7 +143,7 @@
         </div>
         <div class="dos_donts_wrapper">
           <div class="dos_donts_list">
-            <div class="dos_donts_heading">Logo's Do's</div>
+            <div class="dos_donts_heading blue_text">Logo's Do's</div>
             <ul>
               <li>Provide adequate white space surrounding the logo.</li>
               <li>Icon must always be white</li>
@@ -122,7 +152,7 @@
             </ul>
           </div>
           <div class="dos_donts_list">
-            <div class="dos_donts_heading">Logo's Dont's</div>
+            <div class="dos_donts_heading red_text">Logo's Dont's</div>
             <ul>
               <li>Strech or scale the logo non-uniformely</li>
               <li>Crop or partially cover the logo with other objects</li>
@@ -140,13 +170,13 @@
             <div class="dont_images">
               <div class="dont_image_box">
                 <img src="./images/dont_crop.png" alt="don't-stretch.img" />
-                <div>stretch</div>
+                <div>crop</div>
               </div>
             </div>
             <div class="dont_images">
               <div class="dont_image_box">
                 <img src="./images/dont_color.png" alt="don't-stretch.img" />
-                <div>stretch</div>
+                <div>color</div>
               </div>
             </div>
         </div>
