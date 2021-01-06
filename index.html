@@ -23,7 +23,6 @@
       }
       .container {
         display: flex;
-        flex-direction: column;
         justify-content: center;
       }
       .content-wrapper {
@@ -33,9 +32,24 @@
       .style-details {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        margin-top: 75px;
+        margin-bottom: 75px;
       }
 
-      .style-details > .logo img {
+      .style-details-text {
+        text-align: right;
+        color: #808080;
+        font-weight: normal;
+      }
+
+      .style-details-text h3 {
+        color: #000000;
+        margin-top: 40px;
+        margin-bottom: 10px;
+      }
+
+      .style-details-logo img {
         width: 100%;
       }
     </style>
@@ -65,24 +79,24 @@
           Please see the guidelines outlined below (logo assets can be
           downloaded below):
         </p>
-      </div>
 
-      <div class="style-details">
-        <div class="style-details-text">
-          <h3>Primary Logo</h3>
-          <div>White Space = 1/4 logo width</div>
-          <div>White logo on primary blue</div>
+        <div class="style-details">
+          <div class="style-details-text">
+            <h3>Primary Logo</h3>
+            <div>White Space = 1/4 logo width</div>
+            <div>White logo on primary blue</div>
 
-          <h3>Primary Color</h3>
-          <div>#0079FF</div>
-          <div>RGB 0, 121, 255</div>
+            <h3>Primary Color</h3>
+            <div>#0079FF</div>
+            <div>RGB 0, 121, 255</div>
 
-          <h3>Name</h3>
-          <div>Capitalize “D” and “S”</div>
-          <div>No space between the words</div>
-        </div>
-        <div class="styles-details-logo">
-          <img src="./images/logo-with-margin.png" alt="margin.img" />
+            <h3>Name</h3>
+            <div>Capitalize “D” and “S”</div>
+            <div>No space between the words</div>
+          </div>
+          <div class="style-details-logo">
+            <img src="./images/logo-with-margin.png" alt="margin.img" />
+          </div>
         </div>
       </div>
     </div>
